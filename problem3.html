@@ -1,0 +1,72 @@
+<!--Create an HTML form with a GET method that will collect the following: First Name, Last Name, Gender (have them pick), Favorite sport (from a dropdown list of at least 5), Checkboxes for what you like on your pizza (from a list of at least 5) and the submit button should read, "Save".-->
+
+
+<html>
+    <head>
+        <h1>Carson's Week 3 HTML Toy Problems</h1>
+        <link rel = "stylesheet" href="style.css"></head> 
+
+        <title>Give</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+   <div class="navbar">
+      <a class="dropbtn" href="index.html">Home</a>
+      <a class="dropbtn" href="index.html">Bio</a>
+     
+          <div class="dropdown">
+            <button class="dropbtn">ITA toy Problems</button>
+    
+             <div class="dropdown-content">
+                  <a><u>Week 3</u></a>
+                  <a href="problem1.html">Problem 1</a>
+                  <a href="problem2.html">Problem 2</a>
+                  <a href="problem3.html">Problem 3</a>
+                  <a href="problem4.html">Problem 4</a>
+                  <a href="problem5.html">Problem 5</a>
+                  <a><u>Week 4</u></a>
+              </div>
+          </div>
+</div>
+        <form action="#" method="GET" name="my_form">
+            <h2>Carson's First Form</h2>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="text" name="firstName">
+        
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" name="lastName">
+            <br>
+            <label for="gender">Gender:</label><br>
+            
+            <input id="gender" type="radio" name="gender" value="Male">Male<br>
+            <input id="gender" type="radio" name="gender" value="Female">Female<br>
+            <input id="gender" type="radio" name="gender" value="Other">Other<br>
+            
+            <p>What is your favorite sport?</p>
+            <select>
+                <option>Sportsball</option>
+                <option>Rocket League</option>
+                <option>Soccer</option>
+                <option>Corey in the House</option>
+                <option>Underwater Basket Weaving</option>
+                <option>Other</option>
+            </select>
+
+
+            <p> What toppings do you like on your Pizza?</p>
+
+            <input type="checkbox" name="" value="Cheese">Cheese<br>
+            <input type="checkbox" name="" value="Pepperoni">Pepperoni<br>
+            <input type="checkbox" name="" value="Pineapple">Pineapple<br>
+            <input type="checkbox" name="" value="Sausage">Sausage<br>
+            <input type="checkbox" name="" value="Bacon">Bacon<br>
+
+            <br>
+            <input type="submit" value="Save" id="save" onclick="return foo()">
+            
+
+        </form>
+        <footer>
+        </footer>
+    </body>
+</html>

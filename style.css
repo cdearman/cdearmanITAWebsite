@@ -1,0 +1,39 @@
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    background:black;
+    color:white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: pink;
+    
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.navbar {
+    display: block;
+    
+    background-color:black;
+}
+
+.navbar a{
+    text-decoration: none ;
+    color:White;
+    background: black;
+    min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
